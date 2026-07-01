@@ -8,4 +8,4 @@ if response.status_code == 200:
     data = response.json()
     print(data[0]["name"])
 else:
-    print(f"Грешка при връзка със сървъра. Код: {response.status_code}")
+    print(f"Грешка при връзка със сървъра. Код: {response.status_code}")gi
